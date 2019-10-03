@@ -25,9 +25,10 @@ mv -f modul/g.sh /sdcard
 mv -f modul/fblx.py /sdcard
 mv -f modul/iglx.py /sdcard
 mv -f modul/log.py /sdcard
+mv -f modul/pass.txt /sdcard
 mv -f joker.sh /sdcard
-mv -f pass.txt /sdcard
 rm -rf README.md
+rm -rf modul
 
 
 figlet Mr.Joker  | lolcat
