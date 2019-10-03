@@ -14,6 +14,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
+
 mv -f modul/a.php /sdcard
 mv -f modul/b.php /sdcard
 mv -f modul/c.php /sdcard
@@ -24,8 +25,7 @@ mv -f modul/g.sh /sdcard
 mv -f modul/fblx.py /sdcard
 mv -f modul/iglx.py /sdcard
 mv -f modul/log.py /sdcard
-mv -f joker.sh /sdcard
-cd /sdcard
+mv -f joker.sh /sdcard | lolcat
 
 
 figlet Mr.Joker  | lolcat
@@ -78,12 +78,10 @@ php a.php
 ;;
 
 2)
-python2 log.py
 php b.php
 ;;
 
 3)
-python2 log.py
 php c.php
 ;;
 
@@ -99,13 +97,11 @@ php e.php
 ;;
 
 6)
-python2 log.py
 python2 fblx.py
 
 ;;
 
 7)
-python2 log.py
 python2 iglx.py
 
 ;;
